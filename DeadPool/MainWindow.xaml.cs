@@ -73,6 +73,7 @@ namespace DeadPool
         private void btnDormir_Click(object sender, RoutedEventArgs e)
         {
             pgb_Energia.Value += 20.0;
+            Accion_Dormir();
         }
 
         
@@ -120,7 +121,24 @@ namespace DeadPool
                 MessageBox.Show("Error: " + e);
             }*/
         }
-         
+        SoundPlayer Dormir;
+        private void Accion_Dormir()
+        {
+
+            Storyboard durmiendo;
+            durmiendo = (Storyboard)this.Resources["Dormir"];
+            Dormir = new SoundPlayer(@"..\..\snore.wav");
+            //espada.Begin();
+            durmiendo.Begin();
+            Dormir.Play();
+            /*try
+            {
+                Comer = new SoundPlayer(@"C:\Users\Jesus\Documents\DeadPool\DeadPool\eat.wav");
+            }
+            catch (Exception e) {
+                MessageBox.Show("Error: " + e);
+            }*/
+        }
 
     }
 }
