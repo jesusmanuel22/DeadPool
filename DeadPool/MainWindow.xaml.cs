@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Media;
 
 namespace DeadPool
 {
@@ -61,6 +62,7 @@ namespace DeadPool
         private void btnComer_Click(object sender, RoutedEventArgs e)
         {
             pgb_Hambre.Value += 20.0;
+            Accion_comer();
         }
 
         private void btnJugar_Click(object sender, RoutedEventArgs e)
@@ -100,5 +102,25 @@ namespace DeadPool
            //espada.Begin();
             enfadado.Begin();
         }
+        SoundPlayer Comer;
+        private void Accion_comer()
+        {
+            
+            Storyboard comiendo;
+            comiendo = (Storyboard)this.Resources["Comiendo"];
+            Comer = new SoundPlayer(@"..\..\eat.wav");
+            //espada.Begin();
+            comiendo.Begin();
+            Comer.Play();
+            /*try
+            {
+                Comer = new SoundPlayer(@"C:\Users\Jesus\Documents\DeadPool\DeadPool\eat.wav");
+            }
+            catch (Exception e) {
+                MessageBox.Show("Error: " + e);
+            }*/
+        }
+         
+
     }
 }

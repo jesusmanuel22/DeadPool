@@ -123,13 +123,31 @@
     <Resource Include="bandeja.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="tumblr_m92ktaqhf61r1w13fo1_400.png" />
+    <Resource Include="pizza.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="antebrazo.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Eat 3.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Eat 3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="eat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="comida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pizza-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="balon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

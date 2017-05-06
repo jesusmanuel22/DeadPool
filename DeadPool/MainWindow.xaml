@@ -232,34 +232,47 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="tumblr_m92ktaqhf61r1w13fo1_400_png">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-19.119"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-3.417"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="37.651666666666664"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="58.186"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="107.794"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="118.22"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="135.89"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="127.186"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="136.39"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="125.024"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4" Value="125.024"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4.1" Value="-12.119"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="tumblr_m92ktaqhf61r1w13fo1_400_png">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="10.436"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-60.609"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-102.56166666666667"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-123.538"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-248.205"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-307.38"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-342.821"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-307.33"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-341.821"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-349.909"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4" Value="-349.909"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4.1" Value="19.436"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="tumblr_m92ktaqhf61r1w13fo1_400_png">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="35.056"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-1.098"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-50.819999999999993"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-75.681"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-166.757"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-207.604"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-205.638"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-190.676"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-138.77855555555556"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4" Value="-138.77855555555556"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4.1" Value="35.056"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(SkewTransform.AngleY)" Storyboard.TargetName="tumblr_m92ktaqhf61r1w13fo1_400_png">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-17.374"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-2.867"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-10.062333333333331"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-13.66"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="8.915"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-0.576"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4.1" Value="-17.374"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="el_brazoIzq">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1"/>
@@ -355,10 +368,14 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="tumblr_m92ktaqhf61r1w13fo1_400_png">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-0.878"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-0.817"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-0.561"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-0.35"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-0.366"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-0.045"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="0.002"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4" Value="0.002"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4.1" Value="-1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="el_manoIzq">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1"/>
@@ -396,17 +413,21 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="tumblr_m92ktaqhf61r1w13fo1_400_png">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="0.749"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="0.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="0.492"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="0.088"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-0.002"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4" Value="-0.002"/>
+                <DiscreteDoubleKeyFrame KeyTime="0:0:4.1" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="canvas">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cv_comida">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="48"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="48"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="canvas">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cv_comida">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-310.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-310.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0"/>
@@ -416,7 +437,6 @@
     <Window.Triggers>
         <EventTrigger RoutedEvent="FrameworkElement.Loaded" SourceName="cv_Cabeza">
             <BeginStoryboard x:Name="Cabeza_BeginStoryboard" Storyboard="{StaticResource Cabeza}"/>
-            <BeginStoryboard Storyboard="{StaticResource Comiendo}"/>
         </EventTrigger>
         <EventTrigger RoutedEvent="UIElement.MouseUp" SourceName="cv_Espada2">
             <BeginStoryboard x:Name="Espada_BeginStoryboard" Storyboard="{StaticResource Espada}"/>
@@ -473,6 +493,7 @@
             <ProgressBar x:Name="pgb_Hambre" Margin="10" Foreground="#FFDC2222" Value="20"/>
             <ProgressBar x:Name="pgb_Energia" Foreground="#FF1FC0AC" Grid.Column="2" Margin="10" Value="50"/>
             <ProgressBar x:Name="pgb_Diversion" Grid.Column="1" Margin="10" Foreground="#FF46D32A" Value="50"/>
+            <Image x:Name="balon_png" Grid.Column="1" Margin="0,0,0,-0.219" Source="balon.png" Stretch="Fill" HorizontalAlignment="Left" Width="58.812"/>
         </Grid>
         <Canvas x:Name="DeadPool" Margin="598.667,67.4,10,0">
             <Canvas x:Name="cv_Espada1" Width="16.934" RenderTransformOrigin="0.5,0.5" Height="275.873" Canvas.Left="95.64" Canvas.Top="79.691">
@@ -755,7 +776,7 @@
             </Canvas>
 
         </Canvas>
-        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="295.986" Margin="349,0,0,-333.986" VerticalAlignment="Bottom" Width="328.5" RenderTransformOrigin="0.5,0.5">
+        <Canvas x:Name="cv_comida" HorizontalAlignment="Left" Height="295.986" Margin="349,0,0,-333.986" VerticalAlignment="Bottom" Width="328.5" RenderTransformOrigin="0.5,0.5">
             <Canvas.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -790,7 +811,7 @@
                     <ImageBrush ImageSource="bandeja.png"/>
                 </Ellipse.Fill>
             </Ellipse>
-            <Image x:Name="tumblr_m92ktaqhf61r1w13fo1_400_png" Height="136.234" Source="tumblr_m92ktaqhf61r1w13fo1_400.png" Stretch="Fill" Width="146.416" RenderTransformOrigin="0.5,0.5" Canvas.Left="123.542">
+            <Image x:Name="tumblr_m92ktaqhf61r1w13fo1_400_png" Height="136.234" Source="pizza.png" Stretch="Fill" Width="146.416" RenderTransformOrigin="0.5,0.5" Canvas.Left="123.542">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="-1"/>
@@ -800,7 +821,8 @@
                     </TransformGroup>
                 </Image.RenderTransform>
             </Image>
-        </Canvas> 
+        </Canvas>
+        <Image x:Name="Pizza_icon_png" HorizontalAlignment="Left" Margin="239.5,-13.5,0,0" Source="Pizza-icon.png" Stretch="Fill" Width="88.25" Height="88.25" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
