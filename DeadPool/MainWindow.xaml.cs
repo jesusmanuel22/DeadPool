@@ -33,7 +33,15 @@ namespace DeadPool
             
             
             t1.Start();
-            
+            Pizza_icon50_png.Visibility = Visibility.Hidden;
+            Pizza_icon10_png.Visibility = Visibility.Hidden;
+            Pizza_icon_png.Visibility = Visibility.Hidden;
+            balon_10_png.Visibility = Visibility.Hidden;
+            balon_50_png.Visibility = Visibility.Hidden;
+            balon_png.Visibility = Visibility.Hidden;
+            dormir10_png.Visibility = Visibility.Hidden;
+            dormir50_png.Visibility = Visibility.Hidden;
+            dormir_png.Visibility = Visibility.Hidden;
         }
 
         private void reloj(object sender, EventArgs e)
@@ -41,21 +49,69 @@ namespace DeadPool
             pgb_Diversion.Value -= 5.0;
             pgb_Energia.Value -= 5.0;
             pgb_Hambre.Value -= 5.0;
-
+            
             Storyboard hambriento;
             hambriento = (Storyboard)this.Resources["pgb_Hambre"];
-
+            if (pgb_Hambre.Value < 50 && pgb_Hambre.Value >= 10)
+            {
+                Pizza_icon50_png.Visibility = Visibility.Visible;
+                Pizza_icon10_png.Visibility = Visibility.Hidden;
+                Pizza_icon_png.Visibility = Visibility.Hidden;
+            }
+            else if (pgb_Hambre.Value < 10 && pgb_Hambre.Value >= 0)
+            {
+                Pizza_icon50_png.Visibility = Visibility.Hidden;
+                Pizza_icon10_png.Visibility = Visibility.Visible;
+                Pizza_icon_png.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                Pizza_icon50_png.Visibility = Visibility.Hidden;
+                Pizza_icon10_png.Visibility = Visibility.Hidden;
+                Pizza_icon_png.Visibility = Visibility.Visible;
+            }
             Storyboard diversion;
             diversion = (Storyboard)this.Resources["pgb_Diversion"];
-            
+            if (pgb_Diversion.Value < 50 && pgb_Diversion.Value >= 10)
+            {
+                balon_10_png.Visibility = Visibility.Hidden;
+                balon_50_png.Visibility = Visibility.Visible;
+                balon_png.Visibility = Visibility.Hidden;
+            }
+            else if (pgb_Diversion.Value < 10 && pgb_Diversion.Value >= 0)
+            {
+                balon_10_png.Visibility = Visibility.Visible;
+                balon_50_png.Visibility = Visibility.Hidden;
+                balon_png.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                balon_10_png.Visibility = Visibility.Hidden;
+                balon_50_png.Visibility = Visibility.Hidden;
+                balon_png.Visibility = Visibility.Visible;
+            }
             Storyboard cansado;
             cansado = (Storyboard)this.Resources["pgb_Cansado"];
-
-           
-            if (pgb_Hambre.Value ==0  || pgb_Diversion.Value ==0  || pgb_Energia.Value < 5) {
-           
-               
+            if (pgb_Energia.Value < 50 && pgb_Energia.Value >= 10)
+            {
+                dormir10_png.Visibility = Visibility.Hidden;
+                dormir50_png.Visibility = Visibility.Visible;
+                dormir_png.Visibility = Visibility.Hidden;
             }
+            else if (pgb_Energia.Value < 10 && pgb_Energia.Value >= 0)
+            {
+                dormir10_png.Visibility = Visibility.Hidden;
+                dormir50_png.Visibility = Visibility.Hidden;
+                dormir_png.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                dormir10_png.Visibility = Visibility.Visible;
+                dormir50_png.Visibility = Visibility.Hidden;
+                dormir_png.Visibility = Visibility.Hidden;            }
+
+
+
 
         }
 

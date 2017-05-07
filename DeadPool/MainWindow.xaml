@@ -787,6 +787,13 @@
             <ProgressBar x:Name="pgb_Diversion" Grid.Column="1" Margin="10" Foreground="#FF46D32A" Value="50"/>
             <Image x:Name="balon_png" Grid.Column="1" Margin="0,0,0,-0.219" Source="balon.png" Stretch="Fill" HorizontalAlignment="Left" Width="58.812"/>
             <Image x:Name="dormir_png" Grid.Column="2" Margin="6,7,0,7.9" Source="dormir.png" Stretch="Fill" HorizontalAlignment="Left" Width="43.5" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="balon_50_png" Grid.Column="1" Margin="0,0,0,-0.219" Source="balon_50.png" Stretch="Fill" HorizontalAlignment="Left" Width="58.812"/>
+            <Image x:Name="Pizza_icon_png" HorizontalAlignment="Left" Margin="10,-13.415,0,-16.435" Source="Pizza-icon.png" Stretch="Fill" Width="88.25" Height="88.25" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment"/>
+            <Image x:Name="Pizza_icon50_png" HorizontalAlignment="Left" Margin="10,-13.415,0,-16.435" Source="Pizza-icon50.png" Stretch="Fill" Width="88.25" Height="88.25" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment"/>
+            <Image x:Name="Pizza_icon10_png" HorizontalAlignment="Left" Margin="10,-13.415,0,-16.435" Source="Pizza-icon10.png" Stretch="Fill" Width="88.25" Height="88.25" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment"/>
+            <Image x:Name="balon_10_png" Grid.Column="1" Margin="0,0,0,-0.219" Source="balon_10.png" Stretch="Fill" HorizontalAlignment="Left" Width="58.812"/>
+            <Image x:Name="dormir50_png" Grid.Column="2" Margin="6,7,0,7.9" Source="dormir50.png" Stretch="Fill" HorizontalAlignment="Left" Width="43.5" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="dormir10_png" Grid.Column="2" Margin="6,7,0,7.9" Source="dormir10.png" Stretch="Fill" HorizontalAlignment="Left" Width="43.5" RenderTransformOrigin="0.5,0.5"/>
         </Grid>
         <Canvas x:Name="DeadPool" Margin="598.667,67.4,10,0" RenderTransformOrigin="0.5,0.5">
             <Canvas.RenderTransform>
@@ -1166,7 +1173,7 @@
                 </Image.RenderTransform>
             </Image>
         </Canvas>
-        <Image x:Name="Pizza_icon_png" HorizontalAlignment="Left" Margin="239.5,-13.5,0,0" Source="Pizza-icon.png" Stretch="Fill" Width="88.25" Height="88.25" VerticalAlignment="Top"/>
+
 
     </Grid>
 </Window>
